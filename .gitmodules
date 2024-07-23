@@ -1,0 +1,5 @@
+[submodule "Phonebook"]
+   path = Phonebook
+   url = git@github.com:pius458/Phonebook.git
+[submodule]
+	Phonebook = git@github.com:pius458/Phonebook.git
