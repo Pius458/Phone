@@ -1,6 +1,6 @@
 const Notification = ({message}) => {
     const styling = {
-        color : 'red',
+        color : 'green',
         background: 'grey',
         boader: 'solid black'
     }
