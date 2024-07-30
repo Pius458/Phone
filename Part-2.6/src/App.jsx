@@ -84,6 +84,12 @@ const App = () => {
           setNewName('')
           setNewNumber('')
          })
+         .catch(error => {
+            setMessage(error.response.data)
+            setTimeout(() => {
+              setMessage(null)
+            },5000)
+         })
   }
 
   const handleDelete = (id) => {
